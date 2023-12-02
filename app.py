@@ -21,7 +21,7 @@ def convert(ammount, conversion):
     return f"Converted amount from {from_currency} to {to_currency}: {converted_amount} {to_currency}"
 
 # Streamlit interface
-st.title("Currency Converter")
+st.title("Welcome to Currency Converter")
 
 ammount = st.number_input("Enter the Amount to Convert:", min_value=0)
 conversion = st.selectbox("Conversion Type:", ["USD to PKR", "PKR to USD"])
